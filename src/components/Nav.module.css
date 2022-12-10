@@ -1,0 +1,36 @@
+.container {
+    background: #454545;
+    width: 100vw;
+    height: 70px;
+    color: #f6f4e6;
+    display: flex;
+  }
+  
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  width: 100vw;
+  height: 70px;
+  top: -2%;
+}
+
+.homeimg {
+  width: 200px;
+}
+
+.about {
+  border-radius: 0.5em;
+  margin-left: 0.5em;
+  padding: 0.5em;
+  border: solid #06d6a0;
+  background-color: #ffffff;
+  color: #370617;
+  font-weight: 700;
+  font-size: 1em;
+}
+.about:hover {
+  background-color: #ffd60a;
+  cursor: pointer;
+}
